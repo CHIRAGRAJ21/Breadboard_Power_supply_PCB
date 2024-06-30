@@ -2680,6 +2680,18 @@
 		)
 		(uuid "c77d8b24-8308-4bc6-b550-c093470e1167")
 	)
+	(text "NO Heirarchial sheets used here."
+		(exclude_from_sim no)
+		(at 171.958 19.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d1772d7c-de4b-4125-8a82-065b655ff43c")
+	)
 	(label "5V"
 		(at 186.69 44.45 180)
 		(fields_autoplaced yes)
