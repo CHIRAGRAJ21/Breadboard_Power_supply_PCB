@@ -1,19 +1,15 @@
 ** Drc report for BREADBOARD POWER SUPPLY PCB.kicad_pcb **
-** Created on 2024-06-28T23:59:36+0530 **
+** Created on 2024-06-30T18:26:08+0530 **
 
-** Found 3 DRC violations **
-[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(128.0000 mm, 64.0500 mm): Zone [GND] on B.Cu
-    @(114.5540 mm, 79.5020 mm): PTH pad 2 [GND] of U1
-[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(128.0000 mm, 64.0500 mm): Zone [GND] on B.Cu
-    @(137.4100 mm, 111.5300 mm): PTH pad 1 [GND] of J2
-[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(128.0000 mm, 64.0500 mm): Zone [GND] on B.Cu
-    @(137.4100 mm, 65.8720 mm): PTH pad 1 [GND] of J1
+** Found 2 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(138.4300 mm, 65.0240 mm): Arc on Edge.Cuts
+    @(139.4460 mm, 67.1830 mm): Dimension '31.2161 mm' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(139.4460 mm, 67.1830 mm): Dimension '31.2161 mm' on F.Silkscreen
+    @(135.5500 mm, 116.1000 mm): Dimension '52.1300 mm' on F.Silkscreen
 
 ** Found 0 unconnected pads **
 
