@@ -2,6 +2,7 @@
 *backups/*
 *GERBERS.zip*
 *fp-info-cache*
-
-
+*-backups/*
+*.lck*
+*BREADBOARD POWER SUPPLY PCB/BREADBOARD POWER SUPPLY PCB-backups/*
 
